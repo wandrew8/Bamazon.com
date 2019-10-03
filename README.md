@@ -1,8 +1,16 @@
 # Bamazon.com
 ## Overview
-Bamazon is a CLI which allows users to search through a small database of products and select items to purchase. The database was created using MySQL and the logic was run using Node.js. This CLI utilizes the inquirer and mysql NPM. Here is a demo of how the Bamazon CLI works. 
+
+Bamazon is a CLI created using the NPM inquirer and mysql to allow the user to navigate through a small database of items similar to an Amazon.com database. Within the bamazonCustomer.js app, the user is a customer and can make purchases from the database. Here is  a demo of how it works.
 
 ![photo](images/bamazon.gif)
+
+The second app, bamazonManager.js allows the user to view the database, view items with low inventory, add new items to the inventory, and adjust the product's stock inventory. Here is a demo of how it works.  
+
+![photo](images/manager.gif)
+
+The database for both apps was created using MySQL and the logic was run using Node.js. This CLI utilizes the inquirer and mysql NPM. 
+
 
 ## Installation 
 
